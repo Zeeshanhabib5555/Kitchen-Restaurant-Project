@@ -49,6 +49,7 @@
   font-size: 18px;
   color: #fff;
   transition: 0.3s;
+  text-decoration: none;
 }
 
 .btn-discover:hover {
@@ -63,6 +64,7 @@
   padding: 10px 25px;
   border-radius: 40px;
   font-weight: 600;
+  text-decoration: none;
 }
 
 .feature-card {
@@ -117,3 +119,105 @@
   height: 210px;
   object-fit: cover;
 }
+
+.swiper {
+  width: 100%;
+}
+
+.swiper-slide {
+  width: auto !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand-logo {
+  width: 140px;
+  opacity: 0.9;
+  transition: 0.3s ease;
+}
+
+.brand-logo:hover {
+  opacity: 1;
+}
+
+/* Foote Setion Css Start  */
+/* Footer Background */
+.footer-section {
+  background: #070f2b;
+  color: #fff;
+}
+
+/* Footer Text */
+.footer-text {
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 8px;
+}
+
+/* Footer Headings */
+.footer-heading {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Highlighted Items */
+.footer-highlight {
+  color: #00AEEF;
+  font-weight: 600;
+}
+
+/* Social Icons */
+.footer-social i {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footer-social i:hover {
+  color: #00AEEF;
+}
+
+/* Newsletter Input */
+.footer-input {
+  border-radius: 30px;
+  padding: 10px 15px;
+}
+
+/* Newsletter Button */
+.footer-btn {
+  background: #00AEEF;
+  border-radius: 30px;
+  padding: 10px 0;
+  color: white !important;
+}
+
+/* Divider Line */
+.footer-divider {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Copyright Text */
+.footer-copy {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Back to Top Button */
+.to-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #00AEEF;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.to-top-btn:hover {
+  background: #008dc1;
+}
+
+/* Foote Setion Css End  */
