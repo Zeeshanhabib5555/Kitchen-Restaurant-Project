@@ -1,90 +1,339 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Kitchen Restaurant</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  </head>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kitchen Restaurant</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
 <body>
 
-<!-- TOPBAR -->
-<div class="topbar">
-  <div class="container d-flex justify-content-between align-items-center">
-    <div class="d-flex gap-4">
-      <span><i class="fa fa-phone"></i> +33 877 554 332</span>
-      <span><i class="fa fa-envelope"></i> info@website.com</span>
-      <span><i class="fa fa-clock"></i> Mon - Fri: 9:00 - 18:30</span>
-    </div>
+  <!-- TOPBAR -->
+  <div class="topbar">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="d-flex gap-4">
+        <span><i class="fa fa-phone"></i> +33 877 554 332</span>
+        <span><i class="fa fa-envelope"></i> info@website.com</span>
+        <span><i class="fa fa-clock"></i> Mon - Fri: 9:00 - 18:30</span>
+      </div>
 
-    <div class="d-flex gap-3">
-      <i class="fab fa-facebook-f"></i>
-      <i class="fab fa-twitter"></i>
-      <i class="fab fa-google-plus"></i>
-      <i class="fab fa-instagram"></i>
-      <i class="fab fa-youtube"></i>
-    </div>
-  </div>
-</div>
-
-<!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-  <div class="container">
-    <a class="navbar-brand fs-3 fw-bold" href="#">
-      <img src="assets/images/main-logo.png" alt="Kitchen Logo" width="auto" height="80px">
-    </a>
-
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navMenu">
-      <ul class="navbar-nav ms-auto align-items-lg-center">
-        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Pages</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Page 1</a></li>
-            <li><a class="dropdown-item" href="#">Page 2</a></li>
-          </ul>
-        </li>
-
-        <li class="nav-item"><a class="nav-link" href="#">Blogs</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-
-        <li class="nav-item ms-lg-3">
-          <a href="#" class="book-seat-btn">BOOK A SEAT</a>
-        </li>
-      </ul>
+      <div class="d-flex gap-3">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-google-plus"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+      </div>
     </div>
   </div>
-</nav>
 
-<!-- HERO SECTION -->
-<section class="hero">
-  <div class="hero-overlay"></div>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <div class="container">
+      <a class="navbar-brand fs-3 fw-bold" href="#">
+        <img src="assets/images/main-logo.png" alt="Kitchen Logo" width="auto" height="80px">
+      </a>
 
-  <div class="hero-content container">
-    <h1 class="display-4 fw-bold text-warning">
-      The Pleasure Of Tasty Delight
-    </h1>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <p class="mt-4 fs-5">
-      Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur
-    </p>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
 
-    <a href="#" class="btn-discover mt-4">DISCOVER MORE</a>
-  </div>
-</section>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Pages</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Page 1</a></li>
+              <li><a class="dropdown-item" href="#">Page 2</a></li>
+            </ul>
+          </li>
 
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+          <li class="nav-item"><a class="nav-link" href="#">Blogs</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+
+          <li class="nav-item ms-lg-3">
+            <a href="#" class="book-seat-btn">BOOK A SEAT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content container">
+      <h1 class="fw-bold">
+        The Pleasure Of Tasty Delight
+      </h1>
+
+      <p class="mt-4 fs-5">
+        Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur
+      </p>
+
+      <a href="#" class="btn-discover mt-4">DISCOVER MORE</a>
+    </div>
+  </section>
+
+  <section class="py-5" style="background:#fefbf7;">
+    <div class="container">
+
+      <div class="row g-4 justify-content-center">
+
+        <!-- CARD 1 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="feature-card text-center p-4">
+            <div class="icon-wrap mx-auto mb-3">
+              <i class="fa fa-burger"></i>
+            </div>
+            <h4 class="fw-bold text-dark-blue">Fresh Product</h4>
+            <p class="text-muted mt-3">
+              Fringilla in facilisi justo per fermentum sociosqu eros primis ligula euismod arcu
+            </p>
+          </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="feature-card text-center p-4">
+            <div class="icon-wrap mx-auto mb-3">
+              <i class="fa fa-users"></i>
+            </div>
+            <h4 class="fw-bold text-dark-blue">Skilled Chefs</h4>
+            <p class="text-muted mt-3">
+              Fringilla in facilisi justo per fermentum sociosqu eros primis ligula euismod arcu
+            </p>
+          </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="feature-card text-center p-4">
+            <div class="icon-wrap mx-auto mb-3">
+              <i class="fa fa-seedling"></i>
+            </div>
+            <h4 class="fw-bold text-dark-blue">Vegan Cuisine</h4>
+            <p class="text-muted mt-3">
+              Fringilla in facilisi justo per fermentum sociosqu eros primis ligula euismod arcu
+            </p>
+          </div>
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="feature-card text-center p-4">
+            <div class="icon-wrap mx-auto mb-3">
+              <i class="fa fa-dumbbell"></i>
+            </div>
+            <h4 class="fw-bold text-dark-blue">Salmon Lox</h4>
+            <p class="text-muted mt-3">
+              Fringilla in facilisi justo per fermentum sociosqu eros primis ligula euismod arcu
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="py-5" style="background:#fefbf7;">
+    <div class="container py-5">
+
+      <div class="row align-items-center g-5">
+
+        <!-- LEFT IMAGE -->
+        <div class="col-lg-5">
+          <img src="assets/images/Dining-women.webp" class="img-fluid rounded-4 shadow-sm" alt="Dining Woman">
+        </div>
+
+        <!-- RIGHT CONTENT -->
+        <div class="col-lg-7">
+
+          <!-- SMALL TITLE -->
+          <h6 class="fw-bold mb-2" style="color:#00AEEF; letter-spacing:.5px;">
+            About Us
+          </h6>
+
+          <!-- MAIN TITLE -->
+          <h1 class="display-5 fw-bold mb-4" style="color:#0c1b3c;">
+            Have A Enjoyable Time <br>
+            With Foods
+          </h1>
+
+          <!-- RIGHT SIDE IMAGE STACK -->
+          <div class="position-relative">
+
+            <!-- MAIN IMAGE -->
+            <img src="assets/images/chief-working.webp" class="img-fluid rounded-4 shadow-sm mb-4 w-100" alt="Chef">
+
+            <!-- QUOTE BOX -->
+            <div class="quote-box p-4 rounded-4 shadow-lg bg-white position-absolute start-50 translate-middle-x"
+              style="bottom: -30px; width: 85%;">
+              <p class="text-center mb-0 fw-semibold" style="color:#0c1b3c; font-size:1.1rem;">
+                "Quis autem vel eum iure
+                reprehenderit in ealuptate velit esse
+                molestiae"
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="py-5" style="background:#fefbf7;">
+    <div class="container text-center">
+
+      <!-- Heading -->
+      <h2 class="fw-bold mb-5" style="color:#0c1b3c;">View Our Menu</h2>
+
+      <!-- Menu Row -->
+      <div class="row justify-content-center g-4">
+
+        <!-- Item 1 -->
+        <div class="col-6 col-md-3">
+          <div class="menu-card">
+            <img src="assets/images/pizza.webp" class="img-fluid rounded-4 mb-3" alt="Pizza">
+
+            <h6 class="fw-bold text-dark mb-3">HOT PIZZA</h6>
+
+            <button class="menu-btn">READ MORE</button>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="col-6 col-md-3">
+          <div class="menu-card">
+            <img src="assets/images/salad.webp" class="img-fluid rounded-4 mb-3" alt="Salad">
+
+            <h6 class="fw-bold text-dark mb-3">SALADS</h6>
+
+            <button class="menu-btn">READ MORE</button>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="col-6 col-md-3">
+          <div class="menu-card">
+            <img src="assets/images/dessert.webp" class="img-fluid rounded-4 mb-3" alt="Dessert">
+
+            <h6 class="fw-bold text-dark mb-3">DESSERT</h6>
+
+            <button class="menu-btn">READ MORE</button>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="col-6 col-md-3">
+          <div class="menu-card">
+            <img src="assets/images/drinks.webp" class="img-fluid rounded-4 mb-3" alt="Drinks">
+
+            <h6 class="fw-bold text-dark mb-3">DRINKS</h6>
+
+            <button class="menu-btn">READ MORE</button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="py-5 position-relative" style="background:#fefbf7;">
+
+    <!-- Background world map -->
+    <div class="position-absolute top-0 start-0 w-100 h-100"
+      style="background:url('worldmap.png') center/contain no-repeat; opacity:0.15;">
+    </div>
+
+    <div class="container position-relative py-5">
+
+      <!-- Subtitle -->
+      <h6 class="text-center fw-bold mb-2" style="color:#FFB800;">
+        Our Testimonial
+      </h6>
+
+      <!-- Main Heading -->
+      <h2 class="text-center fw-bold mb-5" style="color:#0c1b3c;">
+        Good Reviews By Clients
+      </h2>
+
+      <div class="row justify-content-center g-4">
+
+        <!-- Testimonial Card 1 -->
+        <div class="col-lg-5">
+          <div class="p-5 rounded-4 shadow-sm bg-white">
+
+            <div class="mb-3" style="font-size:50px; color:#d9d9d9; line-height:0;">
+              &ldquo;
+            </div>
+
+            <p class="text-muted mb-4" style="font-size:1rem;">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.
+            </p>
+
+            <div class="d-flex align-items-center">
+              <img src="assets/images/testm-img-1.webp" class="rounded-circle me-3" width="60" height="60" alt="">
+              <div>
+                <h6 class="fw-bold mb-0" style="color:#0c1b3c;">Emanuel Kelton</h6>
+                <small class="text-muted">Planner</small>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Testimonial Card 2 -->
+        <div class="col-lg-5">
+          <div class="p-5 rounded-4 shadow-sm bg-white">
+
+            <div class="mb-3" style="font-size:50px; color:#d9d9d9; line-height:0;">
+              &ldquo;
+            </div>
+
+            <p class="text-muted mb-4" style="font-size:1rem;">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.
+            </p>
+
+            <div class="d-flex align-items-center">
+              <img src="assets/images/testm-img-2.webp" class="rounded-circle me-3" width="60" height="60" alt="">
+              <div>
+                <h6 class="fw-bold mb-0" style="color:#0c1b3c;">Roylor Henk</h6>
+                <small class="text-muted">Director</small>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
+
 </html>
