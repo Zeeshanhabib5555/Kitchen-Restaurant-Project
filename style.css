@@ -24,6 +24,11 @@
   text-align: center;
 }
 
+.menu-hero {
+  background: url("assets/images/menu-hero.webp") center/cover no-repeat;
+  height: 80vh;
+}
+
 .hero-overlay {
   background: rgba(0, 0, 0, 0.6);
   position: absolute;
@@ -221,3 +226,97 @@
 }
 
 /* Foote Setion Css End  */
+
+.menu-hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  max-width: 100rem !important;
+  z-index: 5;
+}
+
+.menu-hero-content h1{
+  color: var(--primary-color);
+  font-size: 60px;
+  max-width: 50rem !important;
+  text-align: left;
+}
+
+.menu-hero-content p{
+  max-width: 50rem !important;
+  text-align: left;
+}
+
+/* Section Title */
+.section-title {
+  font-family: 'Playfair Display', serif;
+  color: #0c1b3c;
+  font-weight: 700;
+}
+
+/* Tabs */
+.dish-tabs .nav-link {
+  border-radius: 30px;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  font-weight: 500;
+  padding: 8px 20px;
+  transition: 0.3s;
+}
+
+.dish-tabs .nav-link.active,
+.dish-tabs .nav-link:hover {
+  background: #00AEEF;
+  color: #fff !important;
+}
+
+/* Dish Card */
+.dish-card {
+  border-radius: 16px;
+  overflow: hidden;
+  background: #fff;
+  transition: 0.3s;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+.dish-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Dish Image */
+.dish-img {
+  height: 220px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Title bar under image */
+.dish-title-bar {
+  background: #0c1b3c;
+  color: #00AEEF;
+  padding: 12px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+/* Order Button */
+.order-btn {
+  border: 1px solid #00AEEF;
+  border-radius: 30px;
+  color: #00AEEF;
+  padding: 8px 20px;
+  background: transparent;
+  transition: 0.3s;
+}
+
+.order-btn:hover {
+  background: #00AEEF;
+  color: #fff;
+}
+
+/* Price */
+.dish-price {
+  color: #000;
+  font-weight: 600;
+}
