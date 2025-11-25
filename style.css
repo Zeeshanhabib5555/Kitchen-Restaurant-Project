@@ -193,6 +193,7 @@
   border-radius: 30px;
   padding: 10px 0;
   color: white !important;
+  border: 1px solid #e1e1e1 !important;
 }
 
 /* Divider Line */
